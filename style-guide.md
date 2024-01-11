@@ -27,7 +27,7 @@ The designs were created to the following widths:
 
 - Toggle: hsl(230, 22%, 74%)
 
-### Neutral
+### Neutra
 
 #### Dark Theme
 
