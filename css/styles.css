@@ -38,13 +38,13 @@ input {
 }
 .flexCont {
    width: 80%;
-   margin: 3rem auto 0;
+   margin: 7rem auto 0;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
    padding: 1rem;
-   gap: 2.5rem;
+   /* gap: 2.5rem; */
    max-width: 1000px;
 }
 .innerFour {
@@ -56,7 +56,9 @@ input {
 }
 .one1 {
    display: flex;
+   margin: 0 0 2rem;
 }
+
 .firstBoth {
    width: 50%;
 }
@@ -118,10 +120,12 @@ input {
    display: flex;
    justify-content: space-between;
    /* gap: 1.2rem; */
+   margin: 0 0 2rem;
 }
 .three3 {
    display: flex;
    flex-direction: column;
+   margin: 0 0 0.5rem;
 }
 .four4 {
    display: flex;
@@ -129,6 +133,7 @@ input {
    flex-wrap: wrap;
    row-gap: 1rem;
    column-gap: 0rem;
+   margin: 0 0 1rem;
 }
 .lowerFour {
    width: 24%;
@@ -159,4 +164,31 @@ input {
    display: flex;
    justify-content: center;
    gap: 0.5rem;
+   align-items: last baseline;
+   margin: 0 0 1rem;
+}
+.fDigits {
+   font-size: 2.5rem;
+}
+.followersT {
+   font-size: 0.47rem;
+   letter-spacing: 0.26rem;
+   text-transform: uppercase;
+   /* margin: 0 0 1.2rem; */
+}
+.up-text {
+   display: flex;
+   justify-content: center;
+   font-size: 0.5rem;
+   font-weight: 600;
+   margin: 1.25rem 0 0;
+}
+.ic {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.percentG {
+   font-size: 0.5rem;
+   font-weight: 600;
 }
