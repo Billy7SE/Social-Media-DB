@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter&display=swap');
+
 * {
    box-sizing: border-box;
    margin: 0;
@@ -6,6 +8,8 @@
 body {
    background-color: hsl(230, 17%, 14%);
    width: 100vw;
+   font-family: 'Abril Fatface', serif;
+   font-family: 'Inter', sans-serif;
 }
 hr {
    /* margin-bottom: 1rem; */
@@ -13,11 +17,12 @@ hr {
 input {
    height: 1rem;
 }
-.dashboardT, .tF, .toggleText, .fDigits, .overviewText, .oDigits {
+.dashboardT, .toggleText, .fDigits, .overviewText, .oDigits {
    color: hsl(0, 0%, 100%);
 }
-.name, .followersT, .txt {
+.name, .followersT, .txt, .tF {
    color: hsl(228, 34%, 66%);
+   font-size: 0.7rem;
 }
 .green {
    color: hsl(163, 72%, 41%);
@@ -146,4 +151,12 @@ input {
 }
 .percentG, .up {
    /* display: inline; */
+}
+.dashboardT {
+   font-size: 1.3rem;
+}
+.ic-name {
+   display: flex;
+   justify-content: center;
+   gap: 0.5rem;
 }
